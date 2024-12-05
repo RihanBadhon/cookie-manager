@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+
+html {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #161515;
+    
+}
+
+.container {
+    box-sizing: border-box;
+
+}
+
+.container h1 {
+    text-align: center;
+    color: #f8f1f1;
+    padding: 60px 30px 30px 30px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.container p {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 27px;
+    color: #e7dede;
+    font-weight: 350;
+   
+}
+
+
+
+.container p a {
+    text-decoration: none;
+    color: rgb(96, 224, 96);
+
+}
+
+
+.container p a {
+    text-decoration: none;
+    color: rgb(96, 224, 96);
+
+}
+
+
+dialog {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    user-select: none; 
+    animation: 0.25s linear anim;
+    z-index: 1;
+}
+
+dialog::backdrop {
+    background: rgba(13, 16, 19, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+label {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
+.dlg1Btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#acceptBtn, #settingsBtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#acceptBtn {
+    background-color: #312fbb;
+    color: #fff;
+}
+
+#settingsBtn {
+    background-color: #312fbb;
+    color: #fff;
+}
+
+
+
+.dlg2 p {
+    line-height: 30px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switch {
+    position: relative;
+    outline: none;
+    width: 50px;
+    height: 30px;
+
+}
+
+
+
+
+.dlg2Btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#preferencesBtn {
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #312fbb;
+    color: #fff;
+}

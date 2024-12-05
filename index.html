@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rihan Badhon">
+    <meta name="description" content="My web project">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Browser Cookie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="./src/img/browser-cookie favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css" media="all">
+    <script src="./src/javascript/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+     <div class="container">
+        <h1>Cookie Consent</h1>
+        <p><a href="#">Cookies</a> are small text files that are stored on a user's device by a website.
+           They are often used to remember user preferences and track user behavior for analytics 
+           and advertising purposes. Click<a href="#"> here</a> to read more...</p>
+     </div>
+    </main>
+    <dialog class="dlg1">
+        <h2>Cookies</h2>
+        <p>
+            We use cookies to improve your experience on our website.
+            By clicking "Accept", you agree to the use of cookies for
+            marketing and analytics purposes.
+        </p>
+        <section class="dlg1Btns">
+            <button id="acceptBtn">Accept</button>
+            <button id="settingsBtn">Settings</button>
+        </section>
+    </dialog>
+    <dialog class="dlg2">
+        <h2>Settings</h2>
+        <p>
+            <label for="cookie-one">Browser</label>
+            <input type="checkbox" name="cookie-one" class="switch" id="cookie-one" checked>
+        </p>
+        <p>
+            <label for="cookie-two">Operating System</label>
+            <input type="checkbox" name="cookie-two" class="switch" id="cookie-two" checked>
+        </p>
+        <p>
+            <label for="cookie-three">Screen Width</label>
+            <input type="checkbox" name="cookie-three" class="switch" id="cookie-three" checked>
+        </p>
+        <p>
+            <label for="cookie-four">Screen Height</label>
+            <input type="checkbox" name="cookie-four" class="switch" id="cookie-four" checked>
+        </p>
+        <section class="dlg2Btns">
+            <button id="preferencesBtn">
+                Save Preferences
+            </button>
+        </section>
+    </dialog>    
+  </body>
+</html> 
